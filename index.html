@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <title>Health Care</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-success sticky">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light" href="#"><i class="fa-regular fa-truck-medical"></i>Health Care</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 p-3">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Doctors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Book</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Review</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Blogs</a>
+              </li>
+            </ul>
+            <!-- Appointment -->
+            <button type="button" class="btn bg-light" data-bs-toggle="modal" data-bs-target="#cm">Appointment
+              Now</button>
+            <div class="modal" id="cm">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title bg-success">Register Form</h1>
+                    <button type="button" class="btn-close " data-bs-dismiss="modal"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <label for="fname">First name</label><br>
+                      <input type="text" id="fname" name="fname" placeholder="First name"><br>
+                      <label for="lname" class="lname">Last name</label><br>
+                      <input type="text" id="lname" name="lname" class="llname" placeholder="Lastname"><br>
+                      <label for="email">E-mail</label><br>
+                      <input type="email" id="email" name="email" placeholder="E-mail"><br>
+                      <label for="pass">Mobile Number</label><br>
+                      <input type="text" id="pass" name="number" placeholder="Mobile Num"><br>
+                      <label for="pass">Appointment Day</label><br>
+                      <input type="date" id="pass" name="pass" placeholder="Appointment Date"><br><br>
+                      <button type="button" class="buut btn bg-success text-light">Appointment Now</button>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class=" cc btn bg-success text-light" data-bs-dismiss="modal">close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- content-1 -->
+    <div class="row">
+      <div class="col-lg-6 p-3 col-12">
+        <img src="./home-img.svg" alt="">
+      </div>
+      <div class="col-lg-6 col-12 text-dark p-3 col align-self-center">
+        <h1 id="homeshadow">We Take Care Of Your <br> Healthy Life</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis ea cupiditate minima dicta hic incidunt
+          cumque, adipisci, dolor nesciunt obcaecati facere dolore, architecto culpa ratione maxime voluptatum sapiente
+          quisquam nisi?</p>
+        <button type="button" class="btn btn-outline-success">
+          Contact Now <span class="badge bg-success"> > </span>
+        </button>
+      </div>
+    </div>
+
+    <!-- content-2 -->
+    <div class="row">
+      <div class="col-lg-4 col-12">
+        <div class="card" style="width:400px">
+          <img class="card-img-top mx-auto d-block pt-3" src="./doctor_6217375.png" alt="Card image" style="width:20%">
+          <div class="card-body">
+            <h1 class="text-center">150 +</h1>
+            <h5 class="card-title text-center">Doctors</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-12">
+        <div class="card" style="width:400px">
+          <img class="card-img-top mx-auto d-block pt-3" src="./medical-team_10318823.png" alt="Card image"
+            style="width:20%">
+          <div class="card-body">
+            <h1 class="text-center">1020 +</h1>
+            <h4 class="card-title text-center">Patients</h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-12">
+        <div class="card" style="width:400px">
+          <img class="card-img-top mx-auto d-block pt-3" src="./hospital-bed_2947942.png" alt="Card image"
+            style="width:20%">
+          <div class="card-body">
+            <h1 class="text-center">490 +</h1>
+            <h4 class="card-title text-center">Bed Facility</h4>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- content-3 -->
+
+    <div class="container">
+      <h1 class="container text-success text-center" id="about">ABOUT <span class="text-dark">US</span> </h1>
+    </div>
+
+    <!-- content-4 -->
+
+    <div class="row ">
+      <div class="col-sm-6 p-3">
+        <img src="./about-img.svg" alt="">
+      </div>
+      <div class="col-sm-6 text-dark p-3 align-self-center">
+        <h1 id="homeshadow">Take The World's Best <br> Quality Treatment</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis ea cupiditate minima dicta hic incidunt
+          cumque, adipisci, dolor nesciunt obcaecati facere dolore, architecto culpa ratione maxime voluptatum sapiente
+          quisquam nisi?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque obcaecati libero id recusandae rerum, iusto
+          vero quae voluptatum tenetur quaerat quos minima! Perspiciatis quasi facilis sint deserunt praesentium libero
+          rerum!</p>
+        <button type="button" class="btn btn-outline-success">
+          Contact Now <span class="badge bg-success"> > </span>
+        </button>
+      </div>
+    </div>
+
+    <!-- content-5 -->
+
+    <div class="container">
+      <h1 class="container text-dark mt-4 ps-5 text-center" id="servicedoct">OUR <span
+          class="text-success">SERVICES</span> </h1>
+    </div>
+    <!-- content-6 -->
+
+    <div class="row mb-5" id="services">
+      <div class="col-lg-4 col-sm-6" style="border: 2px solid rgb(9, 143, 9);">
+        <div class="card" style="width:400px">
+          <img class="card-img-top ms-3" src="./medical-check_2871579.png" alt="Card image" style="width:20%">
+          <div class="card-body">
+            <h2 class="card-title ms-3">Free CheckUps</h2>
+            <p class="card-text ms-3">Some example text some example text. John Doe is an architect and engineer</p>
+            <a href="#" class="btn btn-primary ms-3">See Profile</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="card" style="width:400px">
+          <img class="card-img-top ms-3" src="./24-hours_5237690.png" alt="Card image" style="width:20%">
+          <div class="card-body">
+            <h2 class="card-title ms-3">24*7 Available</h2>
+            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+            <a href="#" class="btn btn-primary ms-3">See Profile</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6" style="border: 2px solid rgb(9, 143, 9);">
+        <div class="card" style="width:400px">
+          <img class="card-img-top ms-3" src="./medical-team_4807695.png" alt="Card image" style="width:20%">
+          <div class="card-body">
+            <h2 class="card-title ms-3">Expert Doctors</h2>
+            <p class="card-text ms-3">Some example text some example text. John Doe is an architect and engineer</p>
+            <a href="#" class="btn btn-primary ms-3">See Profile</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- content-7 -->
+
+    <div class="row mb-4">
+      <div class="col-lg-4 col-sm-6" id="services" style="border: 2px solid rgb(9, 143, 9);">
+        <div class="card" style="width:400px">
+          <img class="card-img-top ms-3" src="./medicine_655968.png" alt="Card image" style="width:20%">
+          <div class="card-body">
+            <h2 class="card-title ms-3">Medicins</h2>
+            <p class="card-text ms-3">Some example text some example text. John Doe is an architect and engineer</p>
+            <a href="#" class="btn btn-primary ms-3">See Profile</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="card" style="width:400px">
+          <img class="card-img-top ms-3" src="./hospital_4318499.png" alt="Card image" style="width:20%">
+          <div class="card-body">
+            <h2 class="card-title ms-3">Bed Facility</h2>
+            <p class="card-text ms-3">Some example text some example text. John Doe is an architect and engineer</p>
+            <a href="#" class="btn btn-primary ms-3">See Profile</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6" style="border: 2px solid rgb(9, 143, 9);">
+        <div class="card" style="width:400px">
+          <img class="card-img-top ms-3" src="./air-ambulance_9410055.png" alt="Card image" style="width:20%">
+          <div class="card-body">
+            <h2 class="card-title ms-3">Air Ambulance </h2>
+            <p class="card-text ms-3">Some example text some example text. John Doe is an architect and engineer</p>
+            <a href="#" class="btn btn-primary ms-3">See Profile</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- content-8 -->
+
+    <div class="container">
+      <h1 class="container text-dark mt-4 ps-5 text-center" id="servicedoct">OUR <span
+          class="text-success">DOCTORS</span> </h1>
+    </div>
+
+    <!-- content-9 -->
+
+    <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row" id="doctors">
+            <!-- coloumn-1 -->
+            <div class="col-lg-4 ">
+              <div class="card" style="width: 20rem;">
+                <img src="./doc-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Alysa Healy</h5>
+                  <h4 class="card-text">Expert Docter</h4>
+                  <a href="#" class="fab fa-facebook-f text-success m-3"></a>
+                  <a href="#" class="fab fa-twitter text-success m-3"></a>
+                  <a href="#" class="fab fa-instagram text-success m-3"></a>
+                  <a href="#" class="fab fa-linkedin text-success m-3"></a>
+                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="card" style="width: 20rem;">
+                <img src="./doc-2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Mathew Pots</h5>
+                  <h4 class="card-text">Expert Docter</h4>
+                  <a href="#" class="fab fa-facebook-f text-success m-3"></a>
+                  <a href="#" class="fab fa-twitter text-success m-3"></a>
+                  <a href="#" class="fab fa-instagram text-success m-3"></a>
+                  <a href="#" class="fab fa-linkedin text-success m-3"></a>
+                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="card" style="width: 20rem;">
+                <img src="./doc-3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Elyse Perry</h5>
+                  <h4 class="card-text">Expert Docter</h4>
+                  <a href="#" class="fab fa-facebook-f text-success m-3"></a>
+                  <a href="#" class="fab fa-twitter text-success m-3"></a>
+                  <a href="#" class="fab fa-instagram text-success m-3"></a>
+                  <a href="#" class="fab fa-linkedin text-success m-3"></a>
+                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- coloumn-2 -->
+        <div class="carousel-item">
+          <div class="row" id="doctors">
+            <div class="col-lg-4">
+              <div class="card" style="width: 18rem;">
+                <img src="./doc-4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Yashi bhatiya</h5>
+                  <h4 class="card-text">Expert Docter</h4>
+                  <a href="#" class="fab fa-facebook-f text-success m-3"></a>
+                  <a href="#" class="fab fa-twitter text-success m-3"></a>
+                  <a href="#" class="fab fa-instagram text-success m-3"></a>
+                  <a href="#" class="fab fa-linkedin text-success m-3"></a>
+                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="card" style="width: 18rem;">
+                <img src="./doc-5.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Max Tenison</h5>
+                  <h4 class="card-text">Expert Docter</h4>
+                  <a href="#" class="fab fa-facebook-f text-success m-3"></a>
+                  <a href="#" class="fab fa-twitter text-success m-3"></a>
+                  <a href="#" class="fab fa-instagram text-success m-3"></a>
+                  <a href="#" class="fab fa-linkedin text-success m-3"></a>
+                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="card" style="width: 18rem;">
+                <img src="./doc-6.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Ollie Pope</h5>
+                  <h4 class="card-text">Expert Doctor</h4>
+                  <a href="#" class="fab fa-facebook-f text-success m-3"></a>
+                  <a href="#" class="fab fa-twitter text-success m-3"></a>
+                  <a href="#" class="fab fa-instagram text-success m-3"></a>
+                  <a href="#" class="fab fa-linkedin text-success m-3"></a>
+                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- coloumn-3 -->
+        <div class="carousel-item">
+          <div class="row" id="doctors">
+            <div class="col-lg-4">
+              <div class="card" style="width: 18rem;">
+                <img src="./doc-7.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Nat Sclver</h5>
+                  <h4 class="card-text">Expert Doctor</h4>
+                  <a href="#" class="fab fa-facebook-f text-success m-3"></a>
+                  <a href="#" class="fab fa-twitter text-success m-3"></a>
+                  <a href="#" class="fab fa-instagram text-success m-3"></a>
+                  <a href="#" class="fab fa-linkedin text-success m-3"></a>
+                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="card" style="width: 18rem;">
+                <img src="./doc-8.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Kevin Peterson</h5>
+                  <h4 class="card-text">Expert Doctor</h4>
+                  <a href="#" class="fab fa-facebook-f text-success m-3"></a>
+                  <a href="#" class="fab fa-twitter text-success m-3"></a>
+                  <a href="#" class="fab fa-instagram text-success m-3"></a>
+                  <a href="#" class="fab fa-linkedin text-success m-3"></a>
+                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="card" style="width: 18rem;">
+                <img src="./doc-9.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Joseph Tenison</h5>
+                  <h4 class="card-text">Expert Doctor</h4>
+                  <a href="#" class="fab fa-facebook-f text-success m-3"></a>
+                  <a href="#" class="fab fa-twitter text-success m-3"></a>
+                  <a href="#" class="fab fa-instagram text-success m-3"></a>
+                  <a href="#" class="fab fa-linkedin text-success m-3"></a>
+                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- content-10 -->
+
+    <div class="container">
+      <h1 class="container text-success mt-4 ps-5 text-center" id="servicedoct">APPOINTMENT <span
+          class="text-dark">NOW</span> </h1>
+    </div>
+
+    <!-- content-11 -->
+
+    <div class="row">
+      <div class="col-sm-6 p-3 mt-4">
+        <img src="./appointment-img.svg" alt="">
+      </div>
+      <div class="col-sm-6 text-dark p-3">
+        <form class="row g-3 p-3">
+          <h4 class="container">Make Appointment</h4>
+          <div class="col-md-4">
+            <label for="validationDefault01" class="form-label">First name</label>
+            <input style="border:2px solid rgb(9, 143, 9);" type="text" class="form-control" id="validationDefault01"
+              value="Virat" required>
+          </div>
+          <div class="col-md-4">
+            <label for="validationDefault02" class="form-label">Last name</label>
+            <input style="border: 2px solid rgb(9, 143, 9);" type="text" class="form-control" id="validationDefault02"
+              value="Kholi" required>
+          </div>
+          <div class="col-12">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input style="border: 2px solid rgb(9, 143, 9);" type="email" class="form-control" id="inputEmail4"
+              placeholder="Enter Your Email">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Mobile Number</label>
+            <input style="border: 2px solid rgb(9, 143, 9);" type="number" class="form-control" id="inputAddress"
+              placeholder="Mobile Number">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Address</label>
+            <input style="border: 2px solid rgb(9, 143, 9);" type="text" class="form-control" id="inputAddress"
+              placeholder="DoorNo,Street,Area">
+          </div>
+          <div class="col-md-4">
+            <label for="validationDefault03" class="form-label">Date</label>
+            <input style="border: 2px solid rgb(9, 143, 9);" type="date" class="form-control" id="validationDefault03"
+              required>
+          </div>
+          <div class="col-md-4">
+            <label for="validationDefault04" class="form-label">Time</label>
+            <input style="border: 2px solid rgb(9, 143, 9);" type="time" class="form-control" id="validationDefault04"
+              required>
+          </div>
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">City</label>
+            <input style="border: 2px solid rgb(9, 143, 9);" type="text" class="form-control" id="inputCity"
+              placeholder="City">
+          </div>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">State</label>
+            <select style="border: 2px solid rgb(9, 143, 9);" id="inputState" class="form-select">
+              <option selected>Choose...</option>
+              <option>TamilNadu</option>
+              <option>Karnataka</option>
+              <option>Maharastra</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <label for="inputZip" class="form-label">PinCode</label>
+            <input style="border: 2px solid rgb(9, 143, 9);" type="text" class="form-control" id="inputZip"
+              placeholder="pincode">
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn bg-success text-light">APPOINTMENT NOW</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- content-12 -->
+
+    <div class="container">
+      <h1 class="container text-success ps-5 text-center">CLIENT <span class="text-dark">REVIEW</span> </h1>
+    </div>
+
+    <!-- content-13 -->
+
+    <div class="container mt-5 mb-5">
+      <div class="row g-2">
+        <div class="col-md-4" style="border: 2px solid rgb(9, 143, 9);">
+          <div class="card p-3 text-center px-4">
+            <div class="user-image">
+              <img src="review1.avif" class="rounded-circle" width="80" height="120">
+            </div>
+            <div class="user-content">
+              <h5 class="mb-0">Virat Kholi</h5>
+              <span>World's 1 Cricketer</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat.</p>
+            </div>
+            <div class="ratings">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" style="border: 2px solid rgb(9, 143, 9);">
+          <div class="card p-3 text-center px-4">
+            <div class="user-image">
+              <img src="./review2.jpg" class="rounded-circle" width="80">
+            </div>
+            <div class="user-content">
+              <h5 class="mb-0">Elyse Perry</h5>
+              <span>Women' Best Cricketer</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat.</p>
+            </div>
+            <div class="ratings">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <i class="fa fa-star-half-o"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" style="border: 2px solid rgb(9, 143, 9);">
+          <div class="card p-3 text-center px-4">
+            <div class="user-image">
+              <img src="./review3.jpg" class="rounded-circle" width="80" height="120">
+            </div>
+            <div class="user-content">
+              <h5 class="mb-0">Dinesh Karthik</h5>
+              <span>Tamilnadu Cricketer</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat.</p>
+            </div>
+            <div class="ratings">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o" aria-hidden="true"></i>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- content-14 -->
+    <!-- footer -->
+    <section class="footer container-fluid">
+      <div class=" container-fluid row ms-5 bg-success">
+        <div class="col-lg-3 col-sm-6">
+          <h3>Quick links</h3>
+          <a href="#" class="text-light foothome"> <i class="fas fa-chevron-right text-light"></i> home </a><br>
+          <a href="#" class="text-light footabout"> <i class="fas fa-chevron-right text-light"></i> about </a><br>
+          <a href="#" class="text-light footservice"> <i class="fas fa-chevron-right text-light"></i> services </a><br>
+          <a href="#" class="text-light footdoctors"> <i class="fas fa-chevron-right text-light"></i> doctors </a><br>
+          <a href="#" class="text-light footappoin"> <i class="fas fa-chevron-right text-light"></i> appointment
+          </a><br>
+          <a href="#" class="text-light footreview"> <i class="fas fa-chevron-right text-light"></i> review </a><br>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <h3>Our services</h3>
+          <a href="#" class="text-light footdental"> <i class="fas fa-chevron-right text-light"></i> dental care
+          </a><br>
+          <a href="#" class="text-light footmesage"> <i class="fas fa-chevron-right text-light"></i> message therapy
+          </a><br>
+          <a href="#" class="text-light footcardio"> <i class="fas fa-chevron-right text-light"></i> cardioloty </a><br>
+          <a href="#" class="text-light footdia"> <i class="fas fa-chevron-right text-light"></i> diagnosis </a><br>
+          <a href="#" class="text-light footambulance"> <i class="fas fa-chevron-right text-light"></i> ambulance
+            service </a><br>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <h3>Appointment info</h3>
+          <a href="#" class="text-light footmynum"> <i class="fas fa-phone text-light"></i> +919629261718 </a><br>
+          <a href="#" class="text-light footnumber"> <i class="fas fa-phone text-light"></i> +916379195810 </a><br>
+          <a href="#" class="text-light footmail"> <i class="fas fa-envelope text-light"></i> Healthcare@gmail.com
+          </a><br>
+          <a href="#" class="text-light footgmail"> <i class="fas fa-envelope text-light"></i> rajesh.dec20@gmail.com
+          </a><br>
+          <a href="#" class="text-light footaddres"> <i class="fas fa-map-marker-alt text-light"></i> chennai, india
+          </a><br>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <h3>Follow us</h3>
+          <a href="#" class="text-light footface"> <i class="fab fa-facebook text-light"></i> faceappointment </a><br>
+          <a href="#" class="text-light foottwiter"> <i class="fab fa-twitter text-light"></i> twitter </a><br>
+          <a href="#" class="text-light footinsta"> <i class="fab fa-instagram text-light"></i> instagram </a><br>
+          <a href="#" class="text-light footlink"> <i class="fab fa-linkedin text-light"></i> linkedin </a><br>
+          <a href="#" class="text-light footpin"> <i class="fab fa-pinterest text-light"></i> pinterest </a><br>
+        </div>
+      </div>
+      <hr class="container">
+      <h3 class="container text-center text-success"> Created by <span class="text-dark">Raj Smart</span> | all rights
+        reserved </h3>
+    </section>
+
+
+  </div>
+
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
