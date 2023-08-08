@@ -1,0 +1,202 @@
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+
+/* review style */
+.card{
+    
+    border:none;
+}
+
+.user-content p{
+    margin-top:5px;
+    font-size:12px;
+}
+
+
+.ratings i{
+    color:blue;
+}
+
+/* appointment style */
+input{
+    border-radius: 10px;
+    width: 250px;
+    
+}
+label{
+    font-size: 20px;
+}
+.buut{
+    width: 100%;
+    border-radius: 10px;
+    margin-left: -15px;
+    color:darkgreen;
+}
+h1{
+    /* margin-left: 100px; */
+}
+
+form{
+    margin-left: 30px;
+   
+    
+}
+.cc{
+    color: white;
+}
+.cc:hover{
+    transition: 1s;
+}
+.buut:hover{
+    
+    transition:2s;
+}
+
+/* text shadoww */
+
+#homeshadow{
+    text-shadow: 2px 2px #00ff0091;
+}
+#about{
+    text-shadow: 2px 2px;
+    margin-top: 20px;
+}
+#servicedoct{
+    text-shadow: 2px 2px;
+}
+#doctors{
+    margin-left: 5%;
+}
+#services{
+    margin-left:auto;
+}
+        /* footer style */
+.foothome {
+    text-decoration: none;
+}
+.footabout{
+    text-decoration: none;
+}
+.footservice{
+    text-decoration: none;
+}
+.footdoctors{
+    text-decoration: none;
+}
+.footappoin{
+    text-decoration: none;
+}
+.footreview{
+    text-decoration: none;
+}
+.footreview:hover{
+    margin-left: 20%;
+}
+.footappoin:hover{
+    margin-left: 20%;
+}
+.footdoctors:hover{
+    margin-left: 20%;  
+}
+.footservice:hover{
+    margin-left: 20%; 
+}
+.footabout:hover{
+    margin-left: 20%;
+}
+.foothome:hover{
+    margin-left: 20%;
+}
+.footdental{
+    text-decoration: none;
+}
+.footmesage{
+    text-decoration: none;
+}
+.footcardio{
+    text-decoration: none;
+}
+.footdia{
+    text-decoration: none;
+}
+.footambulance{
+    text-decoration: none;
+}
+.footdental:hover{
+    margin-left: 20%;
+}
+.footmesage:hover{
+    margin-left: 20%;
+}
+.footcardio:hover{
+    margin-left: 20%;
+}
+.footdia:hover{
+    margin-left: 20%;
+}
+.footambulance:hover{
+    margin-left: 20%;
+}
+.footmynum{
+    text-decoration: none;
+}
+.footnumber{
+    text-decoration: none;
+}
+.footmail{
+    text-decoration: none;
+}
+.footgmail{
+    text-decoration: none;
+}
+.footaddres{
+    text-decoration: none;
+}
+.footmynum:hover{
+    margin-left: 20%;
+}
+.footnumber:hover{
+    margin-left: 20%;
+}
+.footmail:hover{
+    margin-left: 20%;
+}
+.footgmail:hover{
+    margin-left: 20%;
+}
+.footaddres:hover{
+    margin-left: 20%;
+}
+.footface{
+    text-decoration: none;
+}
+.foottwiter{
+    text-decoration: none;
+}
+.footinsta{
+    text-decoration: none;
+}
+.footlink{
+    text-decoration: none;
+}
+.footpin{
+    text-decoration: none;
+}
+.footface:hover{
+    margin-left: 20%;
+}
+.foottwiter:hover{
+    margin-left: 20%;
+}
+.footinsta:hover{
+    margin-left: 20%;
+}
+.footlink:hover{
+    margin-left: 20%;
+}
+.footpin:hover{
+    margin-left: 20%;
+}
